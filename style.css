@@ -2,6 +2,17 @@
     padding: 0;
     margin: 0;
 }
+.up{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+
 .bg{
     background-image:  url("img/captdcd.jpg");
     height: 700px;
@@ -175,8 +186,10 @@ button.our:hover{
     padding-left: 30px;
 }
 .forml option{
-    font-size: 20px;
+    font-size: 16px;
 }
+
+
 .amount{
     width: 200px;
     height: 40px;
