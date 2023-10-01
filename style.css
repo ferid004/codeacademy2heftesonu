@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    
+    margin-top: 20px;
+    background-color: black;
+}
+#main{
+    margin-right:400px ;
+    
+    margin-left: 100px;
+}
+a{
+    margin-top: 20px;
+    color: azure;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 30px;
+}
