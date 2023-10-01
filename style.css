@@ -35,6 +35,7 @@ border: 1px solid rgba(255, 255, 255, 0.28);
     text-align: center;
     padding: 10px 10px;
     border: 0px;
+    border-radius: 16px;
 }
 a{
     font-weight: 600;
@@ -46,6 +47,33 @@ a{
     text-align: center;
     padding: 10px 20px;
 }
+a.blog{
+    position: relative;
+}
+.menu{
+    display: none;
+    position: absolute;
+    width:150px ;
+   
+}
+
+.blog:hover .menu{
+    padding: 10px;
+    padding-left: 20px;
+    text-align: left;
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    background-color: white;
+    color: black;
+    display: block;
+    
+
+}
+
+
+
+
 .s1{
     margin-left: 150px;
     margin-right: 150px;
@@ -124,5 +152,25 @@ button.our:hover{
     
     width: 40%;
     
-    background-color: rgb(208, 48, 23);
+    background-color: white;
+}
+.form h2{
+    font-size: 36px;
+    margin: 10px;
+}
+.form p{
+    font-size: 20px;
+}
+.form hr{
+    width: 100px;
+    color: green;
+    background-color: green;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 4px;
+    margin-left: 160px;
+}
+.form .forml{
+    text-align: left;
+    padding-left: 30px;
 }
