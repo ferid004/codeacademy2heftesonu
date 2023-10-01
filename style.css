@@ -64,7 +64,7 @@ a.blog{
 .menu{
     display: none;
     position: absolute;
-    width:150px ;
+    width:100px ;
    
 }
 
@@ -73,13 +73,11 @@ a.blog{
     padding-left: 20px;
     text-align: left;
     position: absolute;
-    top: 55px;
+    top: 53px;
     left: 0px;
     background-color: white;
     color: black;
     display: block;
-    
-
 }
 
 
@@ -133,19 +131,23 @@ button.our{
     border: 3px solid ;
     border: color white;
     text-align: center;
-    padding: 10px 40px;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: 800;
     
     color: aliceblue;
     
     background: transparent;
 }
 button.our:hover{
+    font-size: 20px;
+    font-weight: 800;
     margin-top: 20px;
     border: 3px solid ;
     background-color:rgb(11, 200, 20) ;
     border-color: rgb(11, 200, 20) ;
     text-align: center;
-    padding: 10px 40px;
+    padding: 20px 40px;
     
     color: white;
     
