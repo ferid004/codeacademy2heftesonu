@@ -11,7 +11,7 @@
 }
 
 .navbar{
-    position: absolute;
+    position: fixed;
     margin-bottom: 40px;
     margin-top: 15px;
     /* background-color: black; */
@@ -173,4 +173,21 @@ button.our:hover{
 .form .forml{
     text-align: left;
     padding-left: 30px;
+}
+.forml option{
+    font-size: 20px;
+}
+.amount{
+    width: 200px;
+    height: 40px;
+}
+.formb{
+    margin: 20px 0px;
+    background-color: green;
+    text-align: center;
+    padding: 10px 10px;
+    border: 0px;
+    width: 355px;
+    height: 40px;
+    color: white;
 }
