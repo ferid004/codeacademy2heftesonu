@@ -2,57 +2,127 @@
     padding: 0;
     margin: 0;
 }
+.bg{
+    background-image:  url("img/captdcd.jpg");
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat    ;
+    background-size:  cover;
+}
 
 .navbar{
+    position: absolute;
     margin-bottom: 40px;
-    margin-top: 20px;
-    background-color: black;
+    margin-top: 15px;
+    /* background-color: black; */
+    padding: 10px;
+
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.21);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2px);
+-webkit-backdrop-filter: blur(2px);
+border: 1px solid rgba(255, 255, 255, 0.28);
 }
 #main{
     margin-right:200px ;
     
     margin-left: 50px;
 }
+.linkk{
+    background-color: green;
+    text-align: center;
+    padding: 10px 10px;
+    border: 0px;
+}
 a{
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
     margin-top: 20px;
     color: azure;
     text-decoration: none;
     text-align: center;
-    padding: 10px 30px;
+    padding: 10px 20px;
 }
 .s1{
-    margin: 50px 150px;
-    height:700px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+    height:500px;
+    
+
     
 }
 .caption{
+    position: relative;
+    margin-top: 200px;
     display: inline-block;
-    /* margin-left: 100px; */
-    text-align: center;
+    margin-left: 100px;
+    text-align: left;
     
     
-    width: 50%;
-    
-    background-color: aqua;
+    width: 40%;
+    background: transparent;
+   
 }
 
-/* .caption h1{
+.caption h1{
+    
     display: inline;
-} */
+    font-size: 62px;
+    color: #fff;
+    position: relative;
+}
+
+.caption hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+    
+    width: 150px;
+}
 .caption p{
     display: inline;
-}
-br{
-    display: inline-block;
+    font-size: 32px;
+    color: #fff;
     
 }
+button.our{
+    margin-top: 20px;
+    border: 3px solid ;
+    border: color white;
+    text-align: center;
+    padding: 10px 40px;
+    
+    color: aliceblue;
+    
+    background: transparent;
+}
+button.our:hover{
+    margin-top: 20px;
+    border: 3px solid ;
+    background-color:rgb(11, 200, 20) ;
+    border-color: rgb(11, 200, 20) ;
+    text-align: center;
+    padding: 10px 40px;
+    
+    color: white;
+    
+    
+}
+
 .form{
+    position: relative;
+    margin-top: 200px;
     display: inline-block;
     float: right;
+    text-align: center;
     /* margin-left: 100px; */
+    font-weight: 700;
     
-    
-    width: 50%;
+    width: 40%;
     
     background-color: rgb(208, 48, 23);
 }
